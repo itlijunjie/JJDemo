@@ -9,6 +9,6 @@
 #ifndef ObjectionDemo_PrefixHeader_pch
 #define ObjectionDemo_PrefixHeader_pch
 
-#import <JSObjection.h>
+#import <Objection.h>
 
 #endif

@@ -14,6 +14,12 @@
 		0EA9464D1B14C19400DD03F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA9464C1B14C19400DD03F5 /* Images.xcassets */; };
 		0EA946501B14C19400DD03F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA9464E1B14C19400DD03F5 /* LaunchScreen.xib */; };
 		0EA9465C1B14C19400DD03F5 /* ObjectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9465B1B14C19400DD03F5 /* ObjectionDemoTests.m */; };
+		0EC0A0AA1B16E4F10046C1DF /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0A0A91B16E4F10046C1DF /* Car.m */; };
+		0EC0A0AD1B16EF4A0046C1DF /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0A0AC1B16EF4A0046C1DF /* Engine.m */; };
+		0EC0A0B01B16EF570046C1DF /* Brakes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0A0AF1B16EF570046C1DF /* Brakes.m */; };
+		0EC0A0B41B172F4A0046C1DF /* BindingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0A0B31B172F4A0046C1DF /* BindingModule.m */; };
+		0EC0A0B81B17304C0046C1DF /* ExternalEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0A0B71B17304C0046C1DF /* ExternalEx.m */; };
+		0EC0A0BD1B173FD80046C1DF /* ConfigurableCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0A0BC1B173FD80046C1DF /* ConfigurableCar.m */; };
 		98795EC4F99F8744B8DF8B6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59D34BD4739274251E35161 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +48,19 @@
 		0EA9465A1B14C19400DD03F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA9465B1B14C19400DD03F5 /* ObjectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectionDemoTests.m; sourceTree = "<group>"; };
 		0EA946651B14C32400DD03F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0EC0A0A81B16E4F10046C1DF /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		0EC0A0A91B16E4F10046C1DF /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		0EC0A0AB1B16EF4A0046C1DF /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		0EC0A0AC1B16EF4A0046C1DF /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		0EC0A0AE1B16EF570046C1DF /* Brakes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brakes.h; sourceTree = "<group>"; };
+		0EC0A0AF1B16EF570046C1DF /* Brakes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brakes.m; sourceTree = "<group>"; };
+		0EC0A0B21B172F4A0046C1DF /* BindingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingModule.h; sourceTree = "<group>"; };
+		0EC0A0B31B172F4A0046C1DF /* BindingModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingModule.m; sourceTree = "<group>"; };
+		0EC0A0B51B1730190046C1DF /* ExternalProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalProtocol.h; sourceTree = "<group>"; };
+		0EC0A0B61B17304C0046C1DF /* ExternalEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalEx.h; sourceTree = "<group>"; };
+		0EC0A0B71B17304C0046C1DF /* ExternalEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalEx.m; sourceTree = "<group>"; };
+		0EC0A0BB1B173FD80046C1DF /* ConfigurableCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurableCar.h; sourceTree = "<group>"; };
+		0EC0A0BC1B173FD80046C1DF /* ConfigurableCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurableCar.m; sourceTree = "<group>"; };
 		290F9667A8767E3F8B5D8BB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8060A3E8EFD58BE562365073 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C59D34BD4739274251E35161 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +116,19 @@
 				0EA9464C1B14C19400DD03F5 /* Images.xcassets */,
 				0EA9464E1B14C19400DD03F5 /* LaunchScreen.xib */,
 				0EA9463F1B14C19400DD03F5 /* Supporting Files */,
+				0EC0A0A81B16E4F10046C1DF /* Car.h */,
+				0EC0A0A91B16E4F10046C1DF /* Car.m */,
+				0EC0A0AB1B16EF4A0046C1DF /* Engine.h */,
+				0EC0A0AC1B16EF4A0046C1DF /* Engine.m */,
+				0EC0A0AE1B16EF570046C1DF /* Brakes.h */,
+				0EC0A0AF1B16EF570046C1DF /* Brakes.m */,
+				0EC0A0B21B172F4A0046C1DF /* BindingModule.h */,
+				0EC0A0B31B172F4A0046C1DF /* BindingModule.m */,
+				0EC0A0B51B1730190046C1DF /* ExternalProtocol.h */,
+				0EC0A0B61B17304C0046C1DF /* ExternalEx.h */,
+				0EC0A0B71B17304C0046C1DF /* ExternalEx.m */,
+				0EC0A0BB1B173FD80046C1DF /* ConfigurableCar.h */,
+				0EC0A0BC1B173FD80046C1DF /* ConfigurableCar.m */,
 			);
 			path = ObjectionDemo;
 			sourceTree = "<group>";
@@ -282,7 +314,13 @@
 			files = (
 				0EA946481B14C19400DD03F5 /* ViewController.m in Sources */,
 				0EA946451B14C19400DD03F5 /* AppDelegate.m in Sources */,
+				0EC0A0AA1B16E4F10046C1DF /* Car.m in Sources */,
+				0EC0A0BD1B173FD80046C1DF /* ConfigurableCar.m in Sources */,
+				0EC0A0B01B16EF570046C1DF /* Brakes.m in Sources */,
+				0EC0A0B41B172F4A0046C1DF /* BindingModule.m in Sources */,
 				0EA946421B14C19400DD03F5 /* main.m in Sources */,
+				0EC0A0AD1B16EF4A0046C1DF /* Engine.m in Sources */,
+				0EC0A0B81B17304C0046C1DF /* ExternalEx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
