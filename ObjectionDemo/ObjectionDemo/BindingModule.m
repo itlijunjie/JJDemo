@@ -9,6 +9,7 @@
 #import "BindingModule.h"
 #import "ExternalProtocol.h"
 #import "ExternalEx.h"
+#import "ConfigurableCar.h"
 
 @implementation BindingModule
 
