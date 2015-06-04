@@ -9,7 +9,6 @@
 #import "ConfigurableCar.h"
 
 @implementation ConfigurableCar
-//objection_requires(@"engine", @"brakes")
 objection_initializer(initWithMake:model:)
 
 @synthesize make = _make;
