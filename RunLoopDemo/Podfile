@@ -1,0 +1,5 @@
+pod 'SDWebImage', '~> 3.7.6'
+pod 'Masonry', '~> 1.0.0'
+target :RunLoopDemo do
+    xcodeproj 'RunLoopDemo.xcodeproj'
+end
